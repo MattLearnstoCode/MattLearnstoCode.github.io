@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid red;
+    width: 1000px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+header, main {
+    margin: auto;
+    background-color: deepskyblue;
+}
+
+header {
+    border: 2px black solid;
+}
+
+h1 {
+    margin: 5px;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px 15px;
+    text-align: left;
+}
+
+#description {
+    text-align: center;
+}
+
+main {  
+    border: 4px dashed green;
+}
+
+#about {
+    display: flex;
+}
+
+nav {
+    border: 2px dashed yellow;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+li {
+    border: 2px solid black;
+    height: 25px;
+    width: 30%;
+    text-align: center;
+    list-style-type:none;
+}
+
+img {
+    width: 200px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+p {
+    border: orange solid 3px;
+}

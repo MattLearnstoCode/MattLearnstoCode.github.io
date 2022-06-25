@@ -1,3 +1,7 @@
+:root {
+    --h2-color: white;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -45,22 +49,32 @@ h1 {
 }
 
 h2 {
+    color: var(--h2-color);
+    background-color: #CA4848;
     margin: 20px 15px;
     text-align: left;
+    max-width:max-content;
+    border-radius: 5px;
+    padding: 10px;
 }
 
-main {  
-    border: 4px dashed green;
+main {
     max-width: 100%;
-    margin: 0 10%;
-    background: url("/images/wesley-tingey-AZtMXheXnWc-unsplash.jpg");
+    height: 100vh;
+    margin: 0px 10%;
+    padding: 10px;
+    background-color: #953B3B;
     background-size: contain;
     background-repeat:round;
 }
 
 #about {
+    border: 3px white dashed;
+    display: flex;
     margin: 0 10%;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .project-container {
@@ -74,7 +88,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 5px pink solid;
+    text-align: center;
     height: 250px;
     width: 175px;
     margin: 5%;
@@ -109,12 +123,13 @@ p {
 }
 
 footer {
+    position: sticky;
+    bottom: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     color: white;
     background-color: black;
-    border:4px dashed maroon;
     max-width: 100%;
     margin: 0 10%;
 }
@@ -122,3 +137,7 @@ footer {
 .fa-brands {
     color: white;
 }   
+
+#email:hover {
+    color: green;
+}
